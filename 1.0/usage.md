@@ -78,3 +78,12 @@ $scoboIndex->search('object', $options);
 
 <a name="delete-object"></a>
 ## Deleting Objects
+Deleting objects is just as easy as adding them.
+
+----
+> {warning} The ID used for removal must be the one returned from the `add()` function.
+
+#### Example Input
+```php
+$scoboIndex->remove('f6cfebed-412d-4237-8543-29dc0976939b');
+```
