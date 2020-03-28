@@ -1,3 +1,11 @@
 - ## Get Started
     - [Overview](/{{route}}/{{version}}/overview)
     - [Install](/{{route}}/{{version}}/install)
+    - [Basic Usage](/{{route}}/{{version}}/usage)
+- ## Advanced Features
+    - [Gambits](/{{route}}/{{version}}/gambits)
+    - [Filters](/{{route}}/{{version}}/filters)
+- ## Providers
+    - [Algolia](/{{route}}/{{version}}/algolia)
+    - [Elastic](/{{route}}/{{version}}/elastic)
+    - [MySQL](/{{route}}/{{version}}/gambits)
