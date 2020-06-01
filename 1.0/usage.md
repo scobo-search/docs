@@ -8,7 +8,7 @@
 
 <a name="adding-object"></a>
 ## Adding Objects
-Adding an object for search is super simple and does not require any special formatting. Simply build an array with the data you want to be searchable and put it into the `->add()` function.
+Adding an object for search is super simple and does not require any special formatting. Simply build an array with the data you want to be searchable and put it into the `addItem()` or `addItems()` function.
 
 -----
 #### Example Input
@@ -22,7 +22,28 @@ $object = [
     ]
 ];
 
-$scoboIndex->add($object);
+$scoboIndex->addItem($object);
+```
+
+```php
+$object = [
+    [
+        'id' => 1,
+        'title' => 'This is an Object',
+        'description' => 'This is a description',
+        'author' => [
+            'username' => 'Matt'
+    ],
+    [
+        'id' => 2,
+        'title' => 'This is another Object',
+        'description' => 'This is another description',
+        'author' => [
+            'username' => 'Matt'
+    ]
+];
+
+$scoboIndex->addItems($object);
 ```
 
 #### Example Output
