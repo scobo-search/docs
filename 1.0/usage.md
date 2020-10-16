@@ -33,6 +33,7 @@ $object = [
         'description' => 'This is a description',
         'author' => [
             'username' => 'Matt'
+        ]
     ],
     [
         'id' => 2,
@@ -40,6 +41,7 @@ $object = [
         'description' => 'This is another description',
         'author' => [
             'username' => 'Matt'
+        ]
     ]
 ];
 
@@ -50,6 +52,14 @@ $scoboIndex->addItems($object);
 ```php
 'f6cfebed-412d-4237-8543-29dc0976939b'
 ```
+or
+```php
+[
+    'f6cfebed-412d-4237-8543-29dc0976939b',
+    'f6cfadfd-122d-9858-8543-29dc0846839b'
+]
+```
+
 > {warning} You should always store the output ID in a string value. You can only delete objects using this ID.
 
 <a name="searching"></a>
